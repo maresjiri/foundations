@@ -1,0 +1,56 @@
+column_depth = 0.400                       #[m], depth of column
+pad_width_x = 1.2                             #[m], horizontal dimension of concrete pad (cross)
+pad_width_y = 1.2                             #[m], horizontal dimension of concrete pad (longitudinal)
+pad_depth = 1.5                                #[m], depth of pad (ignoring slab)
+
+dist_from_edge_x_direction = 0.4      #[m], distance of column axis from the edge
+dist_from_edge_y_direction = 0.4      #[m], distance of column axis from the edge
+
+slab_engaged_rotation = True
+slab_engaged_uplift = True
+
+# Reactions
+Rz_down = 50.0                               #[kN]  from frame analysis  
+Rz_uplift = 40.0                                #[kN]  from frame analysis
+Rx_plus = 30.0                                 #[kN]  from frame analysis
+Rx_minus = 30.0                              #[kN]  from frame analysis
+Ry_plus_lngtnl_bracing = 35.0          #[kN]  from frame analysis  
+Ry_minus_lngtnl_bracing = 35.0       #[kN]  from frame analysis 
+Rz_uplift_bracing = 20.0                   #[kN]  from frame analysis
+My_plus = 50.0                                #[kNm] from frame analysis
+My_minus = 0.00                             #[kNm] from frame analysis
+Mx_plus = 0.00                                #[kNm] from frame analysis
+Mx_minus = 0.00                             #[kNm] from frame analysis
+
+# Density of soil
+gamma_1 = 20.0                              #[kN/m^2]
+gamma_2 = 20.0                              #[kN/m^2]
+
+# friction angle
+phi_deg = 18.0                                 #[deg]
+
+# coefficient of cohesiveness
+c = 18.00
+
+# coefficient for c variation
+c_coeff = 2.0
+
+# load angle from vertical
+delta_deg = 0                                    #[deg]
+
+# frame dimansions
+frame_span = 14.0                            #[m]
+frame_spacing = 5.0                          #[m]
+
+# concrete slab properties
+# Assuming mesh reinforcement
+
+slab_percentage = 0.7 
+slab_thickness = 0.15                               #[m]
+slab_reinf_dist_top = 0.05                         #[m], axial distance of reinforcement from the top of the slab
+slab_reinf_dist_btm = 0.05                        #[m], axial distance of reinforcement from the btm of the slab
+slab_reinforcement_area_top = 786.0        #[mm^2/m] 
+slab_reinforcement_area_btm = 786.0       #[mm^2/m]
+slab_reinforcement_fy = 355000.0             #[kPa]
+slab_concrete_grade = 25000.0                 #[kPa]
+concrete_density = 24.0    
