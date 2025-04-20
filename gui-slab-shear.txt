@@ -1,0 +1,9 @@
+Forces (factored)
+NSd_uplift = 10.07   #[kN]
+NSd_downwards = 15.44 #[kN]
+
+Slab Data
+fck = 25  #[MPa], concrete grade
+slab_depth = 203  #[mm], overall slab depth
+Area_reinforcement = 252   #[mm^2], 
+Dist_reinforcement_from_btm = 50 #[mm]
